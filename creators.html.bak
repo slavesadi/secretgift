@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creators - Secret Gift Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Secret Gift Hub</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="creators.html">Creators</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <section class="creators">
+            <h2>Our Creators</h2>
+            <div class="creator">
+                <h3><a href="jane.html">Jane Doe</a></h3>
+                <p>Artist and Illustrator</p>
+                <button onclick="addToCart('Tribute to Jane Doe', 10)">Send Tribute ($10)</button>
+                <button onclick="addToCart('Coffee for Jane Doe', 5)">Send Coffee ($5)</button>
+            </div>
+            <div class="creator">
+                <h3><a href="john.html">John Smith</a></h3>
+                <p>Musician and Composer</p>
+                <button onclick="addToCart('Tribute to John Smith', 15)">Send Tribute ($15)</button>
+                <button onclick="addToCart('Coffee for John Smith', 5)">Send Coffee ($5)</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Secret Gift Hub. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
