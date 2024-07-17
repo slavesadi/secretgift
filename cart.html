@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Your Wishtender-like Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+  <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items">
+            <!-- Add cart items here -->
+            <div class="cart-item">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>$19.99</p>
+                <input type="number" value="1" min="1">
+                <button>Remove</button>
+            </div>
+            <!-- Add more cart items as needed -->
+        </div>
+        <div class="cart-total">
+            <h2>Total: $19.99</h2>
+            <a href="checkout.html" class="checkout-button">Proceed to Checkout</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Wishtender-like Site. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
